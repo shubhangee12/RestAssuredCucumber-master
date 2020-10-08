@@ -1,8 +1,11 @@
-# RestAssuredCucumber
-
-Explanation can be found in this videos
 
 
-https://www.youtube.com/watch?v=DD7WcMgENg8 explains usage of cucumber, cucumber guice, lombok
+Feature File :src\test\resources\API
 
-https://youtu.be/6F9pFM26-rM  explains usage of RestAssured with cucumber
+
+Scenarios Covered:
+1.Validation of Status Code of Response when Endpoint is Valid
+2. Validation of Status Code (Error) when Endpoint is InValid  (Negative Test)
+3.Validation of Response body when Endpoint is Valid
+4.Validation of Response body when Endpoint is Valid and queryParameter provided
+
