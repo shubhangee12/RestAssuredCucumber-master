@@ -1,0 +1,3 @@
+com\companyname\projectname\utilities\RestAssuredUtil.class
+com\companyname\projectname\steps\StepDef.class
+com\companyname\projectname\testrunners\TestRunner.class
