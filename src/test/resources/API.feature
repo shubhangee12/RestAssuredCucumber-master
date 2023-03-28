@@ -11,7 +11,7 @@ Feature: API Validation
       |https://api.ratesapi.io/api/2010-01-12|GET|200|
       |https://api.ratesapi.io/api/latest?symbols=USD,GBP|GET|200|
       |https://api.ratesapi.io/api/latest?base=USD       |GET|200|
-      |https://api.ratesapi.io/api/latest?base=USD&symbols=GBP|GET|404|
+      |https://api.ratesapi.io/api/latest?base=USD&symbols=GBP|GET|200|
 
 
   @TC02
