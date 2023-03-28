@@ -22,7 +22,7 @@ Feature: API Validation
     Examples:
       |Endpoint|Method|RCode|
       |https://api.ratesapi.io/api/latstcc|GET|400|
-      |https://api.ratesapi.io/api=e/2010-01-12|GET|404|
+      |https://api.ratesapi.io/api=e/2010-01-12|GET|402|
 
 
 
